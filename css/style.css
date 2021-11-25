@@ -14,7 +14,27 @@ html, body {
   height: 100%;
 }
 
+a.skip-to-content{
+    background: white;
+    left: 0;
+    padding: 6px;
+    color:black;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 0.5s ease-out;
+    transition: top 0.5s ease-out;
+    z-index: 1;
+}
 
+a.skip-to-content:focus{
+    top:20px;
+    color: black;
+    text-decoration-style: solid;
+  }
+  
+*:focus{
+    border: 2px solid black;
+}
 
 /*---------------------------------------
   Typorgraphy              
